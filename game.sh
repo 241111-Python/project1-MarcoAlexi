@@ -1,104 +1,101 @@
 echo "Hello! Pick a game from the list!"
 
-echo -e "1 - Rock, Paper, Scissors\n2 - Coin Flipper\n3 - Guess the number from 1-6"
+echo -e "1 - Rock, Paper, Scissors\n2 - Coin Flipper\n3 - Guess the number from 1-100"
 
 
 read choice
 
 # RPS
-if [ $choice = 1 ]; then
-    echo -e "You chose Rock, Paper, Scissors!\nSelect a move - Rock, Paper or Scissors?"
-    # Let's make 0 = rock, 1 = paper, 2 = scissors
+if [ $choice == 1 ]; then
+    echo "You chose Rock, Paper, Scissors!"
+    # Let's make 1 = rock, 2 = paper, 3 = scissors
     # Rock > scissors, scissors > papar, paper > rock,  
 
     # game start! 
-    while [ true ]
-    do 
+    while true; 
+    do
+        compPlay=$(( RANDOM%3 + 1))
+        echo $compPlay
+
+        echo "Select a move - Rock (1), Paper (2) or Scissors? (3) or -1 to exit game"
+
         read userPlay
 
-        compPlay=$(( RANDOM%3 ) + 1)
-
-        if [ $userPlay = 1 ]; then # Rock 
-            case $compPlay in
-                3)
-                    echo "You win!"
-                    ;;
-                2)
-                    echo "You lose :("
-                    ;;
-            esac
-            break;
-        elif [ $userPlay = 2 ]; then # paper
-            case $compPlay in
-                1)
-                    echo "You win!"
-                    ;;
-                3)
-                    echo "You lose :("
-                    ;;
-            esac
-            break;
-        elif [ $userPlay = 3 ]; then # scissors
-            case $compPlay in
-                2)
-                    echo "You win!"
-                    ;;
-                1)
-                    echo "You lose :("
-                    ;;
-            esac
-            break;
-        else
-            echo -e "You didn't select a correct number!\nSelect either 0, 1 or 2"
+        if [ $userPlay == 1 ]; then # Rock 
+            if [ $compPlay == 3 ]; then
+                echo "You win with rock!"
+                echo "rock 1" >> "rpsOutput.txt"
+            elif [ $compPlay == 2 ]; then
+                echo "You lose with rock:("
+            fi
+        elif [ $userPlay == 2 ]; then # paper
+            if [ $compPlay == 1 ]; then
+                echo "You win with paper!"
+                echo "paper 1" >> "rpsOutput.txt"
+            elif [ $compPlay == 3 ]; then
+                echo "You lose with papar :("
+            fi
+        elif [ $userPlay == 3 ]; then # scissors
+            if [ $compPlay == 2 ]; then
+                echo "You win with scissors!"
+                echo "scissors 1" >> "rpsOutput.txt"
+            elif [ $compPlay == 1 ]; then
+                echo "You lose wth scissors :("
+            fi
+        elif [ $userPlay == -1 ]; then
+            break
+        else 
+            echo -e "You didn't select a correct number!\nSelect either 1, 2 or 3"
         fi
         
-        if [ $userPlay = compPlay ]; then
+        if [ $userPlay == $compPlay ]; then
             echo "Tie! Try again."
         fi
     done
     
-    echo "Thanks for playing!"
-
-elif [ $choice = 2 ]; then 
+elif [ $choice == 2 ]; then  # Coin Flipper!!
     echo "Coin Flipper!"
-
     
     while true; 
     do
         coinFlip=$(( RANDOM%2 ))
         
-        if [ $coinFlip = 0 ]; then
+        if [ $coinFlip == 0 ]; then
             echo "Heads!"
+            echo "heads 1" >> "coinflipOutput.txt"
         else
             echo "Tails!"
+            echo "tails 1" >> "coinflipOutput.txt"
         fi
 
         read -p "Again? (Y/N) " flipAgain
-        if [ $flipAgain = "N" ]; then
+        if [ $flipAgain == "N" ] || [ $flipAgain == "n" ]; then
             break
         fi
     done    
-elif [ $choice = 3 ]; then 
-    echo -e "Guessing game!\nPick a number from 1-5"
-    
+elif [ $choice == 3 ]; then # Guess the number 
+    echo -e "Guessing game!\nPick a number from 1-100"
+    guessNumber=$((RANDOM % 100 + 1))
+    echo $guessNumber
+    counter=0
     while true;
     do
-        guessNumber=$((RANDOM % 5 + 1))
+        read -p "Guess the number!(1-100) " userNum 
+        counter=$((counter + 1))
 
-        read -p "Guess the number!(1-5) " userNum 
-
-        if [ $guessNumber = $userNum ]; then
-            echo "You guessed correctly!"
-        else
-            echo "You guessed incorrectly :("
-        fi
-
-        read -p "Guess again? (Y/N) " guessAgain
-        if [ $guessAgain = "N" ]; then
+        if [ $guessNumber == $userNum ]; then
+            echo "You guessed the number $guessNumber correctly!"
+            echo $counter >> "guessOutput.txt" 
             break
-        fi        
+        else
+            if [ $guessNumber -gt $userNum ]; then
+                echo "Higher!"
+            else
+                echo "Lower!"
+            fi
+        fi
     done
-else
+else # exit for false choice
     echo "Didn't choose a correct option! Goodbye"
 fi
 
