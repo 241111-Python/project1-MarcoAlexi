@@ -6,7 +6,7 @@ echo -e "1 - Rock, Paper, Scissors\n2 - Coin Flipper\n3 - Guess the number from 
 read choice
 
 # RPS
-if [ $choice -eq 1 ]; then
+if [ $choice = 1 ]; then
     echo -e "You chose Rock, Paper, Scissors!\nSelect a move - Rock, Paper or Scissors?"
     # Let's make 0 = rock, 1 = paper, 2 = scissors
     # Rock > scissors, scissors > papar, paper > rock,  
@@ -59,31 +59,47 @@ if [ $choice -eq 1 ]; then
     
     echo "Thanks for playing!"
 
-elif [ $choice -eq 2 ]; then 
+elif [ $choice = 2 ]; then 
     echo "Coin Flipper!"
 
     
-    while[ true ] 
+    while true; 
     do
         coinFlip=$(( RANDOM%2 ))
         
-        if[ $coinFlip = 0 ]
+        if [ $coinFlip = 0 ]; then
             echo "Heads!"
         else
             echo "Tails!"
         fi
 
-        read -p "Again? (Y/N)" flipAgain
-        if [ flipAgain = "N" ]
+        read -p "Again? (Y/N) " flipAgain
+        if [ $flipAgain = "N" ]; then
             break
         fi
     done    
-else
+elif [ $choice = 3 ]; then 
     echo -e "Guessing game!\nPick a number from 1-5"
-    guessNumber=(( RANDOM%5+1 ))
+    
+    while true;
+    do
+        guessNumber=$((RANDOM % 5 + 1))
 
-    read -p "Guess the number!(1-5)" userNum 
+        read -p "Guess the number!(1-5) " userNum 
 
+        if [ $guessNumber = $userNum ]; then
+            echo "You guessed correctly!"
+        else
+            echo "You guessed incorrectly :("
+        fi
+
+        read -p "Guess again? (Y/N) " guessAgain
+        if [ $guessAgain = "N" ]; then
+            break
+        fi        
+    done
+else
+    echo "Didn't choose a correct option! Goodbye"
 fi
 
 echo "Thanks for playing!"
