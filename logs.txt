@@ -1,160 +1,40 @@
-Fri Nov 15 03:16:01 PST 2024
+Fri Nov 15 07:05:01 PST 2024
 Rock, Paper, Scissors Statistics!
-Total RPS matches: 
-Total rock wins: 0
-Total paper wins: 0
-Total scissors wins: 0
+Total RPS matches: 98
+Total rock wins: 29
+Total paper wins: 37
+Total scissors wins: 32
 Of the winning games...
-Rock winrate: %
-Paper winrate: %
-Scissors winrate: %
+Rock winrate: 29%
+Paper winrate: 37%
+Scissors winrate: 32%
 Coin Flips Statistics!
-Total coinflips: 
-Total head flips: 0
-Total tail flips: 0
-Head flips percent: %
-Tail flips percent: %
+Total coinflips: 141
+Total head flips: 68
+Total tail flips: 73
+Head flips percent: 48%
+Tail flips percent: 51%
 Guessing Game Statistics!
-Total guessing games played: 
-Total guesses: 0
-Average guess per game: 
-Fri Nov 15 03:17:01 PST 2024
+Total guessing games played: 13
+Total guesses: 98
+Average guess per game: 7
+Fri Nov 15 07:06:01 PST 2024
 Rock, Paper, Scissors Statistics!
-Total RPS matches: 
-Total rock wins: 0
-Total paper wins: 0
-Total scissors wins: 0
+Total RPS matches: 98
+Total rock wins: 29
+Total paper wins: 37
+Total scissors wins: 32
 Of the winning games...
-Rock winrate: %
-Paper winrate: %
-Scissors winrate: %
+Rock winrate: 29%
+Paper winrate: 37%
+Scissors winrate: 32%
 Coin Flips Statistics!
-Total coinflips: 
-Total head flips: 0
-Total tail flips: 0
-Head flips percent: %
-Tail flips percent: %
+Total coinflips: 141
+Total head flips: 68
+Total tail flips: 73
+Head flips percent: 48%
+Tail flips percent: 51%
 Guessing Game Statistics!
-Total guessing games played: 
-Total guesses: 0
-Average guess per game: 
-Fri Nov 15 03:18:01 PST 2024
-Rock, Paper, Scissors Statistics!
-Total RPS matches: 
-Total rock wins: 0
-Total paper wins: 0
-Total scissors wins: 0
-Of the winning games...
-Rock winrate: %
-Paper winrate: %
-Scissors winrate: %
-Coin Flips Statistics!
-Total coinflips: 
-Total head flips: 0
-Total tail flips: 0
-Head flips percent: %
-Tail flips percent: %
-Guessing Game Statistics!
-Total guessing games played: 
-Total guesses: 0
-Average guess per game: 
-Fri Nov 15 03:19:01 PST 2024
-Rock, Paper, Scissors Statistics!
-Total RPS matches: 
-Total rock wins: 0
-Total paper wins: 0
-Total scissors wins: 0
-Of the winning games...
-Rock winrate: %
-Paper winrate: %
-Scissors winrate: %
-Coin Flips Statistics!
-Total coinflips: 
-Total head flips: 0
-Total tail flips: 0
-Head flips percent: %
-Tail flips percent: %
-Guessing Game Statistics!
-Total guessing games played: 
-Total guesses: 0
-Average guess per game: 
-Fri Nov 15 03:20:01 PST 2024
-Rock, Paper, Scissors Statistics!
-Total RPS matches: 
-Total rock wins: 0
-Total paper wins: 0
-Total scissors wins: 0
-Of the winning games...
-Rock winrate: %
-Paper winrate: %
-Scissors winrate: %
-Coin Flips Statistics!
-Total coinflips: 
-Total head flips: 0
-Total tail flips: 0
-Head flips percent: %
-Tail flips percent: %
-Guessing Game Statistics!
-Total guessing games played: 
-Total guesses: 0
-Average guess per game: 
-Fri Nov 15 03:21:01 PST 2024
-Rock, Paper, Scissors Statistics!
-Total RPS matches: 
-Total rock wins: 0
-Total paper wins: 0
-Total scissors wins: 0
-Of the winning games...
-Rock winrate: %
-Paper winrate: %
-Scissors winrate: %
-Coin Flips Statistics!
-Total coinflips: 
-Total head flips: 0
-Total tail flips: 0
-Head flips percent: %
-Tail flips percent: %
-Guessing Game Statistics!
-Total guessing games played: 
-Total guesses: 0
-Average guess per game: 
-Fri Nov 15 03:22:01 PST 2024
-Rock, Paper, Scissors Statistics!
-Total RPS matches: 
-Total rock wins: 0
-Total paper wins: 0
-Total scissors wins: 0
-Of the winning games...
-Rock winrate: %
-Paper winrate: %
-Scissors winrate: %
-Coin Flips Statistics!
-Total coinflips: 
-Total head flips: 0
-Total tail flips: 0
-Head flips percent: %
-Tail flips percent: %
-Guessing Game Statistics!
-Total guessing games played: 
-Total guesses: 0
-Average guess per game: 
-Fri Nov 15 03:23:01 PST 2024
-Rock, Paper, Scissors Statistics!
-Total RPS matches: 
-Total rock wins: 0
-Total paper wins: 0
-Total scissors wins: 0
-Of the winning games...
-Rock winrate: %
-Paper winrate: %
-Scissors winrate: %
-Coin Flips Statistics!
-Total coinflips: 
-Total head flips: 0
-Total tail flips: 0
-Head flips percent: %
-Tail flips percent: %
-Guessing Game Statistics!
-Total guessing games played: 
-Total guesses: 0
-Average guess per game: 
+Total guessing games played: 13
+Total guesses: 98
+Average guess per game: 7

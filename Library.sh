@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-addGuess(){
+function addGuess(){
     guessCount=$((guessCount + $1))
 }
 

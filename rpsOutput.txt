@@ -90,3 +90,9 @@ paper
 rock
 paper
 paper
+paper
+paper
+scissors
+scissors
+paper
+rock
