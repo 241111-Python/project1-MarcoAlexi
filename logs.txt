@@ -268,3 +268,51 @@ Total guessing games played: 14
 Total guesses: 103
 Average guess per game: 7
 ------------------------------------
+Fri Nov 15 08:00:01 PST 2024
+------------------------------------
+Rock, Paper, Scissors Statistics!
+Total RPS matches: 101
+Total rock wins: 29
+Total paper wins: 39
+Total scissors wins: 33
+Of the winning games...
+Rock winrate: 28%
+Paper winrate: 38%
+Scissors winrate: 32%
+------------------------------------
+Coin Flips Statistics!
+Total coinflips: 148
+Total head flips: 72
+Total tail flips: 76
+Head flips percent: 48%
+Tail flips percent: 51%
+------------------------------------
+Guessing Game Statistics!
+Total guessing games played: 14
+Total guesses: 103
+Average guess per game: 7
+------------------------------------
+Fri Nov 15 08:20:01 PST 2024
+------------------------------------
+Rock, Paper, Scissors Statistics!
+Total RPS matches: 101
+Total rock wins: 29
+Total paper wins: 39
+Total scissors wins: 33
+Of the winning games...
+Rock winrate: 28%
+Paper winrate: 38%
+Scissors winrate: 32%
+------------------------------------
+Coin Flips Statistics!
+Total coinflips: 148
+Total head flips: 72
+Total tail flips: 76
+Head flips percent: 48%
+Tail flips percent: 51%
+------------------------------------
+Guessing Game Statistics!
+Total guessing games played: 14
+Total guesses: 103
+Average guess per game: 7
+------------------------------------
