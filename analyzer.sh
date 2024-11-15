@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 
+source ./Library.sh
 rpsOutput="rpsOutput.txt"
 guessOutput="guessOutput.txt"
 coinflipOutput="coinflipOutput.txt"
@@ -61,10 +62,10 @@ echo "Total rock wins: $rockCount"
 echo "Total paper wins: $paperCount"
 echo "Total scissors wins: $scissorsCount"
 
-Echo "Of the winning games..."
-Echo "Rock winrate: $rockPercent%" 
-Echo "Paper winrate: $paperPercent%" 
-Echo "Scissors winrate: $scissorsPercent%" 
+echo "Of the winning games..."
+echo "Rock winrate: $rockPercent%" 
+echo "Paper winrate: $paperPercent%" 
+echo "Scissors winrate: $scissorsPercent%" 
 
 
 # Coin Flipper
