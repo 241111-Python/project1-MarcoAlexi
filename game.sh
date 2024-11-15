@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 echo "Hello! Pick a game from the list!"
 
 echo -e "1 - Rock, Paper, Scissors\n2 - Coin Flipper\n3 - Guess the number from 1-100"
@@ -14,8 +16,7 @@ if [ $choice == 1 ]; then
     # game start! 
     while true; 
     do
-        compPlay=$(( RANDOM%3 + 1))
-        echo $compPlay
+        compPlay=$(( RANDOM%3 + 1)) # computer move
 
         echo "Select a move - Rock (1), Paper (2) or Scissors? (3) or -1 to exit game"
 
@@ -26,7 +27,7 @@ if [ $choice == 1 ]; then
                 echo "You win with rock!"
                 echo "rock 1" >> "rpsOutput.txt"
             elif [ $compPlay == 2 ]; then
-                echo "You lose with rock:("
+                echo "You lose with rock :("
             fi
         elif [ $userPlay == 2 ]; then # paper
             if [ $compPlay == 1 ]; then
@@ -42,13 +43,13 @@ if [ $choice == 1 ]; then
             elif [ $compPlay == 1 ]; then
                 echo "You lose wth scissors :("
             fi
-        elif [ $userPlay == -1 ]; then
+        elif [ $userPlay == -1 ]; then # Exit
             break
-        else 
+        else # incorrect selection
             echo -e "You didn't select a correct number!\nSelect either 1, 2 or 3"
         fi
         
-        if [ $userPlay == $compPlay ]; then
+        if [ $userPlay == $compPlay ]; then # Same play
             echo "Tie! Try again."
         fi
     done
@@ -58,14 +59,14 @@ elif [ $choice == 2 ]; then  # Coin Flipper!!
     
     while true; 
     do
-        coinFlip=$(( RANDOM%2 ))
+        coinFlip=$(( RANDOM%2 )) # head = 0, tails = 1 
         
         if [ $coinFlip == 0 ]; then
             echo "Heads!"
-            echo "heads 1" >> "coinflipOutput.txt"
+            echo "heads" >> "coinflipOutput.txt"
         else
             echo "Tails!"
-            echo "tails 1" >> "coinflipOutput.txt"
+            echo "tails" >> "coinflipOutput.txt"
         fi
 
         read -p "Again? (Y/N) " flipAgain
@@ -74,9 +75,8 @@ elif [ $choice == 2 ]; then  # Coin Flipper!!
         fi
     done    
 elif [ $choice == 3 ]; then # Guess the number 
-    echo -e "Guessing game!\nPick a number from 1-100"
-    guessNumber=$((RANDOM % 100 + 1))
-    echo $guessNumber
+    echo "Guessing Game!"
+    guessNumber=$((RANDOM % 100 + 1)) # 1-100 range generator
     counter=0
     while true;
     do

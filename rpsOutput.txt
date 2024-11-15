@@ -1,19 +1,46 @@
-paper 1
-scissors 1
-paper 1
-paper 1
-paper 1
-paper 1
-paper 1
-paper 1
-paper 1
-scissors 1
-rock 1
-scissors 1
-scissors 1
-rock 1
-rock 1
-scissors 1
-rock 1
-paper 1
-rock 1
+paper
+scissors
+paper
+paper
+paper
+paper
+paper
+paper
+paper
+scissors
+rock
+scissors
+scissors
+rock
+rock
+scissors
+rock
+paper
+rock
+paper
+paper
+scissors
+scissors
+paper
+paper
+scissors
+scissors
+scissors
+scissors
+scissors
+paper
+rock
+paper
+scissors
+paper
+rock
+scissors
+scissors
+paper
+paper
+rock
+paper
+paper
+rock
+paper
+scissors

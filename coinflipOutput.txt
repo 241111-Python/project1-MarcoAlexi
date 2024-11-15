@@ -1,69 +1,101 @@
-heads 1
-tails 1
-heads 1
-tails 1
-heads 1
-tails 1
-heads 1
-tails 1
-heads 1
-heads 1
-heads 1
-heads 1
-tails 1
-tails 1
-tails 1
-heads 1
-tails 1
-heads 1
-tails 1
-heads 1
-heads 1
-heads 1
-tails 1
-heads 1
-tails 1
-heads 1
-tails 1
-heads 1
-heads 1
-heads 1
-tails 1
-tails 1
-heads 1
-tails 1
-heads 1
-heads 1
-tails 1
-heads 1
-heads 1
-heads 1
-heads 1
-tails 1
-heads 1
-tails 1
-heads 1
-tails 1
-tails 1
-tails 1
-heads 1
-heads 1
-tails 1
-heads 1
-heads 1
-tails 1
-tails 1
-heads 1
-heads 1
-heads 1
-heads 1
-heads 1
-tails 1
-tails 1
-heads 1
-tails 1
-heads 1
-heads 1
-heads 1
-tails 1
-tails 1
+tails
+heads
+heads
+tails
+heads
+heads
+heads
+heads
+tails
+heads
+heads
+heads
+heads
+heads
+tails
+tails
+heads
+tails
+heads
+tails
+tails
+heads
+tails
+heads
+tails
+tails
+heads
+heads
+tails
+tails
+tails
+heads
+tails
+tails
+heads
+tails
+heads
+heads
+heads
+heads
+heads
+heads
+tails
+heads
+tails
+tails
+tails
+tails
+tails
+tails
+heads
+tails
+tails
+tails
+tails
+heads
+heads
+tails
+tails
+heads
+tails
+heads
+heads
+heads
+tails
+heads
+heads
+heads
+heads
+tails
+tails
+tails
+heads
+heads
+tails
+heads
+tails
+tails
+tails
+tails
+heads
+tails
+heads
+heads
+tails
+heads
+tails
+tails
+tails
+heads
+tails
+tails
+tails
+heads
+tails
+tails
+tails
+heads
+tails
+tails
+tails
