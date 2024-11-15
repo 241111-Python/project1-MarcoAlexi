@@ -25,21 +25,21 @@ if [ $choice == 1 ]; then
         if [ $userPlay == 1 ]; then # Rock 
             if [ $compPlay == 3 ]; then
                 echo "You win with rock!"
-                echo "rock 1" >> "rpsOutput.txt"
+                echo "rock" >> "rpsOutput.txt"
             elif [ $compPlay == 2 ]; then
                 echo "You lose with rock :("
             fi
         elif [ $userPlay == 2 ]; then # paper
             if [ $compPlay == 1 ]; then
                 echo "You win with paper!"
-                echo "paper 1" >> "rpsOutput.txt"
+                echo "paper" >> "rpsOutput.txt"
             elif [ $compPlay == 3 ]; then
                 echo "You lose with papar :("
             fi
         elif [ $userPlay == 3 ]; then # scissors
             if [ $compPlay == 2 ]; then
                 echo "You win with scissors!"
-                echo "scissors 1" >> "rpsOutput.txt"
+                echo "scissors" >> "rpsOutput.txt"
             elif [ $compPlay == 1 ]; then
                 echo "You lose wth scissors :("
             fi

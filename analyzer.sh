@@ -9,7 +9,7 @@ rockCount=0
 paperCount=0
 scissorsCount=0
 
-headCount=0
+headsCount=0
 tailsCount=0
 
 guessCount=0
@@ -30,7 +30,7 @@ done < "$rpsOutput"
 # reading coinflip file
 while IFS=\n read -r flip; do
     if [ $flip == "heads" ]; then
-        headCount=$((headCount + 1))
+        headsCount=$((headsCount + 1))
     else
         tailsCount=$((tailsCount + 1))
     fi
@@ -46,19 +46,37 @@ coinflipLineCnt=$(wc -l < $coinflipOutput)
 guessLineCnt=$(wc -l < $guessOutput)
 
 
+# Calculations
+rockPercent=$(($rockCount * 100 / $rpsLineCnt))
+paperPercent=$(($paperCount * 100 / $rpsLineCnt))
+scissorsPercent=$(($scissorsCount * 100 / $rpsLineCnt))
+headsPercent=$(($headsCount * 100 / $coinflipLineCnt))
+tailsPercent=$(($tailsCount * 100 / $coinflipLineCnt))
+guessAverage=$(($guessCount / $guessLineCnt))
 
+# RPS
 echo "Rock, Paper, Scissors Statistics!"
 echo "Total RPS matches: $rpsLineCnt"
 echo "Total rock wins: $rockCount"
 echo "Total paper wins: $paperCount"
 echo "Total scissors wins: $scissorsCount"
 
+Echo "Of the winning games..."
+Echo "Rock winrate: $rockPercent%" 
+Echo "Paper winrate: $paperPercent%" 
+Echo "Scissors winrate: $scissorsPercent%" 
 
+
+# Coin Flipper
 echo "Coin Flips Statistics!"
 echo "Total coinflips: $coinflipLineCnt"
-echo "Head flips: $headCount"
-echo "Tail flips: $tailsCount"
+echo "Total head flips: $headsCount"
+echo "Total tail flips: $tailsCount"
+echo "Head flips percent: $headsPercent%"
+echo "Tail flips percent: $tailsPercent%"
 
+# Guessing Game!
 echo "Guessing Game Statistics!"
 echo "Total guessing games: $guessLineCnt"
 echo "Total guesses: $guessCount"
+echo "Average guess per game: $guessAverage"
