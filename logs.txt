@@ -1,0 +1,160 @@
+Fri Nov 15 03:16:01 PST 2024
+Rock, Paper, Scissors Statistics!
+Total RPS matches: 
+Total rock wins: 0
+Total paper wins: 0
+Total scissors wins: 0
+Of the winning games...
+Rock winrate: %
+Paper winrate: %
+Scissors winrate: %
+Coin Flips Statistics!
+Total coinflips: 
+Total head flips: 0
+Total tail flips: 0
+Head flips percent: %
+Tail flips percent: %
+Guessing Game Statistics!
+Total guessing games played: 
+Total guesses: 0
+Average guess per game: 
+Fri Nov 15 03:17:01 PST 2024
+Rock, Paper, Scissors Statistics!
+Total RPS matches: 
+Total rock wins: 0
+Total paper wins: 0
+Total scissors wins: 0
+Of the winning games...
+Rock winrate: %
+Paper winrate: %
+Scissors winrate: %
+Coin Flips Statistics!
+Total coinflips: 
+Total head flips: 0
+Total tail flips: 0
+Head flips percent: %
+Tail flips percent: %
+Guessing Game Statistics!
+Total guessing games played: 
+Total guesses: 0
+Average guess per game: 
+Fri Nov 15 03:18:01 PST 2024
+Rock, Paper, Scissors Statistics!
+Total RPS matches: 
+Total rock wins: 0
+Total paper wins: 0
+Total scissors wins: 0
+Of the winning games...
+Rock winrate: %
+Paper winrate: %
+Scissors winrate: %
+Coin Flips Statistics!
+Total coinflips: 
+Total head flips: 0
+Total tail flips: 0
+Head flips percent: %
+Tail flips percent: %
+Guessing Game Statistics!
+Total guessing games played: 
+Total guesses: 0
+Average guess per game: 
+Fri Nov 15 03:19:01 PST 2024
+Rock, Paper, Scissors Statistics!
+Total RPS matches: 
+Total rock wins: 0
+Total paper wins: 0
+Total scissors wins: 0
+Of the winning games...
+Rock winrate: %
+Paper winrate: %
+Scissors winrate: %
+Coin Flips Statistics!
+Total coinflips: 
+Total head flips: 0
+Total tail flips: 0
+Head flips percent: %
+Tail flips percent: %
+Guessing Game Statistics!
+Total guessing games played: 
+Total guesses: 0
+Average guess per game: 
+Fri Nov 15 03:20:01 PST 2024
+Rock, Paper, Scissors Statistics!
+Total RPS matches: 
+Total rock wins: 0
+Total paper wins: 0
+Total scissors wins: 0
+Of the winning games...
+Rock winrate: %
+Paper winrate: %
+Scissors winrate: %
+Coin Flips Statistics!
+Total coinflips: 
+Total head flips: 0
+Total tail flips: 0
+Head flips percent: %
+Tail flips percent: %
+Guessing Game Statistics!
+Total guessing games played: 
+Total guesses: 0
+Average guess per game: 
+Fri Nov 15 03:21:01 PST 2024
+Rock, Paper, Scissors Statistics!
+Total RPS matches: 
+Total rock wins: 0
+Total paper wins: 0
+Total scissors wins: 0
+Of the winning games...
+Rock winrate: %
+Paper winrate: %
+Scissors winrate: %
+Coin Flips Statistics!
+Total coinflips: 
+Total head flips: 0
+Total tail flips: 0
+Head flips percent: %
+Tail flips percent: %
+Guessing Game Statistics!
+Total guessing games played: 
+Total guesses: 0
+Average guess per game: 
+Fri Nov 15 03:22:01 PST 2024
+Rock, Paper, Scissors Statistics!
+Total RPS matches: 
+Total rock wins: 0
+Total paper wins: 0
+Total scissors wins: 0
+Of the winning games...
+Rock winrate: %
+Paper winrate: %
+Scissors winrate: %
+Coin Flips Statistics!
+Total coinflips: 
+Total head flips: 0
+Total tail flips: 0
+Head flips percent: %
+Tail flips percent: %
+Guessing Game Statistics!
+Total guessing games played: 
+Total guesses: 0
+Average guess per game: 
+Fri Nov 15 03:23:01 PST 2024
+Rock, Paper, Scissors Statistics!
+Total RPS matches: 
+Total rock wins: 0
+Total paper wins: 0
+Total scissors wins: 0
+Of the winning games...
+Rock winrate: %
+Paper winrate: %
+Scissors winrate: %
+Coin Flips Statistics!
+Total coinflips: 
+Total head flips: 0
+Total tail flips: 0
+Head flips percent: %
+Tail flips percent: %
+Guessing Game Statistics!
+Total guessing games played: 
+Total guesses: 0
+Average guess per game: 

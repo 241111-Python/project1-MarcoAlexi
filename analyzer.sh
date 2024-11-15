@@ -1,6 +1,5 @@
 #!/usr/bin/bash
 
-source ./Library.sh
 rpsOutput="rpsOutput.txt"
 guessOutput="guessOutput.txt"
 coinflipOutput="coinflipOutput.txt"
@@ -78,6 +77,6 @@ echo "Tail flips percent: $tailsPercent%"
 
 # Guessing Game!
 echo "Guessing Game Statistics!"
-echo "Total guessing games: $guessLineCnt"
+echo "Total guessing games played: $guessLineCnt"
 echo "Total guesses: $guessCount"
 echo "Average guess per game: $guessAverage"
