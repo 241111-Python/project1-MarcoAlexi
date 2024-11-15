@@ -38,3 +38,23 @@ Guessing Game Statistics!
 Total guessing games played: 13
 Total guesses: 98
 Average guess per game: 7
+Fri Nov 15 07:07:02 PST 2024
+Rock, Paper, Scissors Statistics!
+Total RPS matches: 98
+Total rock wins: 29
+Total paper wins: 37
+Total scissors wins: 32
+Of the winning games...
+Rock winrate: 29%
+Paper winrate: 37%
+Scissors winrate: 32%
+Coin Flips Statistics!
+Total coinflips: 141
+Total head flips: 68
+Total tail flips: 73
+Head flips percent: 48%
+Tail flips percent: 51%
+Guessing Game Statistics!
+Total guessing games played: 13
+Total guesses: 98
+Average guess per game: 7
