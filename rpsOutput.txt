@@ -96,3 +96,6 @@ scissors
 scissors
 paper
 rock
+paper
+scissors
+paper

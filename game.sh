@@ -52,6 +52,7 @@ if [ $choice == 1 ]; then
         if [ $userPlay == $compPlay ]; then # Same play
             echo "Tie! Try again."
         fi
+        echo "------------------------------------"
     done
     
 elif [ $choice == 2 ]; then  # Coin Flipper!!
@@ -73,6 +74,7 @@ elif [ $choice == 2 ]; then  # Coin Flipper!!
         if [ $flipAgain == "N" ] || [ $flipAgain == "n" ]; then
             break
         fi
+        echo "------------------------------------"
     done    
 elif [ $choice == 3 ]; then # Guess the number 
     echo "Guessing Game!"
@@ -93,6 +95,7 @@ elif [ $choice == 3 ]; then # Guess the number
             else
                 echo "Lower!"
             fi
+            echo "------------------------------------"
         fi
     done
 else # exit for false choice

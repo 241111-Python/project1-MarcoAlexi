@@ -54,6 +54,7 @@ tailsPercent=$(($tailsCount * 100 / $coinflipLineCnt))
 guessAverage=$(($guessCount / $guessLineCnt))
 
 # RPS
+echo "------------------------------------"
 echo "Rock, Paper, Scissors Statistics!"
 echo "Total RPS matches: $rpsLineCnt"
 echo "Total rock wins: $rockCount"
@@ -64,7 +65,7 @@ echo "Of the winning games..."
 echo "Rock winrate: $rockPercent%" 
 echo "Paper winrate: $paperPercent%" 
 echo "Scissors winrate: $scissorsPercent%" 
-
+echo "------------------------------------"
 
 # Coin Flipper
 echo "Coin Flips Statistics!"
@@ -73,9 +74,11 @@ echo "Total head flips: $headsCount"
 echo "Total tail flips: $tailsCount"
 echo "Head flips percent: $headsPercent%"
 echo "Tail flips percent: $tailsPercent%"
+echo "------------------------------------"
 
 # Guessing Game!
 echo "Guessing Game Statistics!"
 echo "Total guessing games played: $guessLineCnt"
 echo "Total guesses: $guessCount"
 echo "Average guess per game: $guessAverage"
+echo "------------------------------------"

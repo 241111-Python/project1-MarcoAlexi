@@ -139,3 +139,10 @@ heads
 tails
 tails
 heads
+heads
+heads
+heads
+heads
+tails
+tails
+tails
